@@ -9,6 +9,25 @@ import sys
 import csv
 from datetime import datetime
 
+LOG_FILE = "inference_log.csv"
+
+def log_to_csv(text, score):
+    # Check if file exists (to write headers)
+    file_exists = os.path.isfile(LOG_FILE)
+    
+    with open(LOG_FILE, mode='a', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        # Write Header if new file
+        if not file_exists:
+            writer.writerow(["timestamp", "text", "toxicity_score", "model_label"])
+        
+        # Write Data
+        # We apply a simple threshold (e.g. 0.5) to guess the label
+        predicted_label = 1 if score > 0.5 else 0
+        writer.writerow([datetime.now(), text, score, predicted_label])
+        
+    print(f"[ Saved to {LOG_FILE}]")
+
 # Force UTF-8 output for Windows terminals to prevent encoding crashes
 sys.stdout.reconfigure(encoding='utf-8')
 
