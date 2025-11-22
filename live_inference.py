@@ -107,6 +107,9 @@ try:
                 bar = "#" * bar_len + "-" * (20 - bar_len)
                 print(f"[AI]:  [{bar}] {toxicity_score:.4f}")
 
+                # --- SAVE TO FILE  ---
+                log_to_csv(text, toxicity_score)
+
                 # --- SEND TO TOUCHDESIGNER ---
                 client.send_message("/toxicity", toxicity_score)
                 client.send_message("/text", text) 
