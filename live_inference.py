@@ -6,6 +6,8 @@ from transformers import DistilBertTokenizer, DistilBertForSequenceClassificatio
 from pythonosc import udp_client
 import speech_recognition as sr
 import sys
+import csv
+from datetime import datetime
 
 # Force UTF-8 output for Windows terminals to prevent encoding crashes
 sys.stdout.reconfigure(encoding='utf-8')
