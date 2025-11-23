@@ -77,7 +77,7 @@ nlp_toxic_language/
 
 ### Prerequisites
 * Python 3.10+
-* NVIDIA GPU recommended (Required for fast inference)
+* NVIDIA GPU recommended (Required for fast inference, tested on rtx3090)
 
 ### 1. Setup Environment
 ```bash
