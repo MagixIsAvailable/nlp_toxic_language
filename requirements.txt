@@ -1,0 +1,5 @@
+# --- Core Data Science & Machine Learning ---
+pandas
+numpy
+scikit-learn
+matplotlib

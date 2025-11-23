@@ -6,6 +6,14 @@ This project performs a comparative evaluation of Natural Language Processing (N
 
 The study aims to replicate and improve upon standard content moderation systems by comparing a statistical baseline against state-of-the-art Transformer architectures. A key focus of the research is addressing the **"Precision-Recall Trade-off"** in safety-critical applications, where identifying implicit threats (high recall) is prioritized over general accuracy.
 
+Generative AI Declaration
+
+Tools Used: ChatGPT / Gemini / GitHub Copilot
+
+Purpose: Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
+
+Modification: All AI-generated suggestions were reviewed, tested, and adapted to fit the specific dataset and project requirements. The final implementation and critical analysis are my own work.
+
 ##  Dataset
 **Source:** [Jigsaw Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge) (Kaggle)
 **Task:** Binary Classification (Safe vs. Abusive)
