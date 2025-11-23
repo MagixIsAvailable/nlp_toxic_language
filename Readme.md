@@ -34,22 +34,16 @@ The project implements and evaluates three distinct NLP pipelines:
 * **Algorithm:** DistilBERT (Fine-tuned Transformer)
 * **Goal:** Evaluate the impact of contextual embeddings on detecting sarcasm and implicit toxicity.
 
-### 3. Advanced Optimization (Novel Contribution)
-* **Representation:** RoBERTa Tokenizer
-* **Algorithm:** RoBERTa-Large with **Weighted Cross-Entropy Loss**
-* **Hardware Acceleration:** Training performed on NVIDIA RTX 3090 (24GB VRAM)
-* **Goal:** Maximize **Recall** to near-safety-critical levels (~90%) by leveraging a larger parameter space and penalizing false negatives.
 
 ##  Key Results
-The evaluation demonstrates that while statistical methods achieve high accuracy, they fail to detect subtle abuse. The **RoBERTa-Large** model significantly outperformed the baseline in detecting threats.
+The evaluation demonstrates that while statistical methods achieve high accuracy, they fail to detect subtle abuse. 
 
 | Pipeline | Model | Accuracy | F1-Score | Recall (Safety) |
 | :--- | :--- | :--- | :--- | :--- |
 | **Baseline** | LogReg (TF-IDF) | 94.0% | 0.64 | 49.2% |
 | **Deep Learning** | DistilBERT | 96.3% | 0.82 | 78.2% |
-| **Advanced** | **RoBERTa-Large** | **96.0%** | **0.83** | **90.9%** |
 
-*Note: The Advanced model achieved a Recall of 90.9%, meaning it successfully identified over 90% of toxic comments, compared to only 49% for the baseline.*
+
 
 ## 🛠️ Installation & Usage
 
