@@ -10,16 +10,16 @@ torchvision --index-url https://download.pytorch.org/whl/cu121
 torchaudio --index-url https://download.pytorch.org/whl/cu121
 
 # --- NLP & Transformers ---
-transformers
-datasets
-accelerate
-huggingface_hub
+transformers # Hugging Face Transformers library
+datasets # Hugging Face
+accelerate # For optimized model training
+huggingface_hub # For model and dataset sharing
 
 # --- Live Inference & Audio ---
-SpeechRecognition
-python-osc
-pyaudio
+SpeechRecognition # For speech-to-text conversion
+python-osc  # For sending/receiving OSC messages
+pyaudio  # For audio input/output
 
 # --- Jupyter Notebook Utilities ---
-jupyter
-ipywidgets
+jupyter  # For running Jupyter notebooks
+ipywidgets  # For interactive widgets in notebooks
