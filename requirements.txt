@@ -3,3 +3,14 @@ pandas
 numpy
 scikit-learn
 matplotlib
+
+# --- Deep Learning (PyTorch) ---
+torch --index-url https://download.pytorch.org/whl/cu121
+torchvision --index-url https://download.pytorch.org/whl/cu121
+torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# --- NLP & Transformers ---
+transformers
+datasets
+accelerate
+huggingface_hub
