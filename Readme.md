@@ -72,6 +72,18 @@ nlp_toxic_language/
 ├── .gitignore              # Files excluded from version control
 └── README.md               # Project documentation
 
+##  System Requirements
+This project was developed and tested in the following environment. While the training notebook can run on standard hardware (Google Colab / CPU), the **Real-Time Safety Filter** requires GPU acceleration for low-latency performance.
+
+* **Development Hardware:**
+    * **GPU:** NVIDIA GeForce RTX 3090 (24GB VRAM)
+    * **CPU:** AMD Ryzen 9 5950X
+    * **RAM:** 64GB
+* **Software Environment:**
+    * **OS:** Windows 11
+    * **Python:** 3.12.6
+    * **CUDA:** 12.1 (PyTorch optimized)
+
 
 ## 🛠️ Installation & Usage
 
