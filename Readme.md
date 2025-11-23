@@ -45,6 +45,11 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 
 ##  Real-Time Application: The "Safety Filter"
 To validate the model's performance in a production environment, I developed a **Real-Time Audio Visualizer** that maps semantic toxicity to visual chaos.
+### 🎥 Live Demo
+[**▶️ Watch the Real-Time Safety Filter in Action**](https://youtu.be/QQauk5tuYt4)
+
+> *Demonstration of the system reacting to live speech. Note the transition from Blue (Safe) to Red (Toxic) as the intent of the speech changes.*
+
 
 * **Architecture:**
     * **Input:** Live Microphone Audio (Speech-to-Text via Google API).
