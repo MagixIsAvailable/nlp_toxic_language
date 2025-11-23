@@ -8,7 +8,7 @@ The study aims to replicate and improve upon standard content moderation systems
 
 Generative AI Declaration
 
-Tools Used: ChatGPT / Gemini / GitHub Copilot
+Tools Used:  Gemini / GitHub Copilot
 
 Purpose: Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
 
@@ -60,8 +60,8 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 ### 1. Setup Environment
 ```bash
 # Clone repository
-git clone [https://github.com/YOUR_USERNAME/nlp-toxic-comment-analysis.git]
-cd nlp-toxic-comment-analysis
+git clone https://github.com/MagixIsAvailable/nlp_toxic_language.git
+cd nlp_toxic_language
 
 # Install dependencies
 pip install -r requirements.txt
