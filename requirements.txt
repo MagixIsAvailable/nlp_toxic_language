@@ -14,3 +14,12 @@ transformers
 datasets
 accelerate
 huggingface_hub
+
+# --- Live Inference & Audio ---
+SpeechRecognition
+python-osc
+pyaudio
+
+# --- Jupyter Notebook Utilities ---
+jupyter
+ipywidgets
