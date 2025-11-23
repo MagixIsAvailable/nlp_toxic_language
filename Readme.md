@@ -50,6 +50,7 @@ To validate the model's performance in a production environment, I developed a *
 * **Architecture:**
     * **Input:** Live Microphone Audio (Speech-to-Text via Google API).
     * **Processing:** DistilBERT Inference (Python).
+    * **Logging:** All inference results (transcription + toxicity score) are automatically appended to `inference_log.csv` for auditing and future fine-tuning.
     * **Output:** OSC (Open Sound Control) data stream to TouchDesigner.
 * **Visual Feedback Strategy:**
     * **🔵 Safe State (Score < 0.5):** Particles exhibit harmonic, laminar flow (Blue/Cyan).
