@@ -45,7 +45,7 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 
 
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 * Python 3.10+
@@ -59,3 +59,4 @@ cd nlp_toxic_language
 
 # Install dependencies
 pip install -r requirements.txt
+

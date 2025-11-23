@@ -1,13 +1,20 @@
-import os
-import torch
-import time
-import numpy as np
-from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
-from pythonosc import udp_client
-import speech_recognition as sr
-import sys
-import csv
-from datetime import datetime
+# -----------------------------------------------------------------------------
+# Live Inference & Visualization Bridge
+#
+# Note: This script was developed with assistance from Generative AI (Gemini)
+# to handle microphone input streams and OSC networking protocols.
+# -----------------------------------------------------------------------------
+
+import os # For file path operations
+import torch # For PyTorch model handling
+import time # For timing operations
+import numpy as np # For numerical operations
+from transformers import DistilBertTokenizer, DistilBertForSequenceClassification # For DistilBERT
+from pythonosc import udp_client # For OSC communication
+import speech_recognition as sr # For speech recognition
+import sys # For system operations
+import csv # For CSV file operations
+from datetime import datetime # For timestamping
 
 LOG_FILE = "inference_log.csv"
 
