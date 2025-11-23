@@ -121,6 +121,3 @@ To start the real-time safety filter (ensure you have a microphone connected):
 ```bash
 python live_inference.py
 ```
-
-```
-```
