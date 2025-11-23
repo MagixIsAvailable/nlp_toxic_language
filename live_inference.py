@@ -87,7 +87,7 @@ print("[*] Model Loaded & Ready on GPU.")
 # --- 3. AUDIO LISTENING LOOP ---
 recognizer = sr.Recognizer()
 
-print(f"\n[*] LISTENING on Device {MIC_INDEX}... (Speak into your mic)")
+print(f"\n[*] LISTENING on Device {MIC_INDEX}... (Start recording) ")
 print("---------------------------------------")
 
 try:
