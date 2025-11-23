@@ -47,6 +47,8 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 ##  Real-Time Application: The "Safety Filter"
 To validate the model's performance in a production environment, I developed a **Real-Time Audio Visualizer** that maps semantic toxicity to visual chaos.
 
+Automated Data Annotation: The system implements a "Data Flywheel." Inference results are automatically annotated (0=Safe, 1=Toxic) based on a confidence threshold (>0.5) and logged to a CSV. This creates a pseudo-labeled dataset that allows for future Human-in-the-Loop (HITL) fine-tuning, where an administrator only needs to correct false positives (e.g., "I hate broccoli") to retrain the model.
+
 * **Architecture:**
     * **Input:** Live Microphone Audio (Speech-to-Text via Google API).
     * **Processing:** DistilBERT Inference (Python).

@@ -43,7 +43,14 @@ OSC_IP = "127.0.0.1"
 OSC_PORT = 7000
 MIC_INDEX = 58  # <---  specific microphone index (Live! Cam)
 
-# Path to  DistilBERT model 
+# Updated Log Path: Saves inside the 'Data' folder with a descriptive name
+DATA_FOLDER = "Data"
+LOG_FILE = os.path.join(DATA_FOLDER, "live_recording_data.csv")
+
+# Ensure the folder exists (just in case)
+os.makedirs(DATA_FOLDER, exist_ok=True)
+
+# Path to your trained DistilBERT model
 MODEL_DIR = "./results" 
 ARCHITECTURE = "distilbert-base-uncased"
 
