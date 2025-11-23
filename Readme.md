@@ -56,6 +56,7 @@ To validate the model's performance in a production environment, I developed a *
 * ** Automated Data Annotation (Active Learning):** The system implements a "Data Flywheel." Inference results are automatically annotated (0=Safe, 1=Toxic) based on a confidence threshold (>0.5) and logged to `Data/live_recording_data.csv`. This creates a **pseudo-labeled dataset** that allows for future Human-in-the-Loop (HITL) fine-tuning, where an administrator only needs to correct false positives (e.g., "I hate broccoli") to retrain the model.
 
 ## 📂 Project Structure
+```text
 nlp_toxic_language/
 ├── Data/                   
 │   ├── train.csv           # Training dataset (Download from Kaggle)
@@ -70,6 +71,8 @@ nlp_toxic_language/
 ├── requirements.txt        # Python library dependencies
 ├── .gitignore              # Files excluded from version control
 └── README.md               # Project documentation
+
+
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
