@@ -64,12 +64,30 @@ To validate the model's performance in a production environment, I developed a *
 * Python 3.10+
 * NVIDIA GPU recommended (Required for Pipeline 3)
 
+## 🛠️ Installation & Usage
+
+### Prerequisites
+* Python 3.10+
+* NVIDIA GPU recommended (Required for fast inference)
+
 ### 1. Setup Environment
 ```bash
 # Clone repository
-git clone https://github.com/MagixIsAvailable/nlp_toxic_language.git
+git clone [https://github.com/MagixIsAvailable/nlp_toxic_language.git](https://github.com/MagixIsAvailable/nlp_toxic_language.git)
 cd nlp_toxic_language
 
 # Install dependencies
 pip install -r requirements.txt
 
+2. Download Data
+     1. Download train.csv.zip from Kaggle.
+
+     2. Extract train.csv into a folder named data/ in the root directory.
+
+3. Run the Analysis
+Open the Jupyter Notebook to view the training, evaluation, and visualization code.
+     jupyter notebook Toxic_Language_Evaluation.ipynb
+
+4.  Run Live Inference
+To start the real-time safety filter (ensure you have a microphone connected):
+  python live_inference.py
