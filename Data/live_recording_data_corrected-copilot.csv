@@ -1,0 +1,248 @@
+timestamp,text,toxicity_score,model_label,corrected_label
+58:15.8,hi I'm doing well how are you,0.003176131,0,0
+58:22.7,I hate you,0.9974586367607116,1,1
+14:30.0,microphone check 12311 12345,0.000729921,0,0
+14:50.4,issues,0.001169774,0,0
+43:32.8,VEVO Japan Willow Japan,0.000832947,0,0
+44:09.1,she is so desperate to hide how fast it's population,0.006667045,0,0
+44:10.9,hello hello,0.00131489,0,0
+26:05.8,1 2 3 hello,0.001654721,0,0
+26:10.0,I got blue eyes,0.001622703,0,0
+26:16.8,I hate blue,0.9952162504196168,1,0
+26:20.8,blues amazing,0.002169646,0,0
+26:28.5,absolutely great,0.000892505,0,0
+26:34.7,how are you doing,0.003739794,0,0
+26:55.6,ice cream is bad,0.003748639,0,0
+27:06.2,I love ice,0.002245696,0,0
+27:12.2,I love ice,0.002245696,0,0
+27:19.1,hello ice,0.001498915,0,0
+27:30.0,super duper duper,0.003016409,0,0
+27:39.1,I will kill you,0.9972565770149232,1,1
+27:44.2,can we not have,0.001394176,0,0
+27:55.4,we should talk,0.000844045,0,0
+27:59.5,not going to talk,0.001264909,0,0
+28:09.5,I hate you,0.9974586367607116,1,1
+28:13.5,I'll kill you,0.996791422,1,1
+28:17.3,I'll support you,0.002823206,0,0
+57:31.3,I like blue colour,0.00126324,0,0
+57:37.7,I hate,0.9971190690994264,1,1
+57:43.3,tell me about blue,0.001475262,0,0
+58:17.9,I hate blue colour,0.9750712513923644,1,0
+58:28.1,I love blue colour,0.000737838,0,0
+58:36.1,I like blue,0.003362959,0,0
+59:23.9,shit shit shit shit shit shit shit shit,0.997696817,1,1
+59:38.6,amazing this is amazing,0.001652836,0,0
+01:22.1,why isn't it working properly,0.003201313,0,0
+01:24.3,system,0.000716577,0,0
+01:58.5,system update system,0.000506904,0,0
+02:03.7,what am I doing wrong,0.001549912,0,0
+02:10.0,what is it let's go let's go to the disco,0.006119126,0,0
+02:13.4,that is good,0.002092842,0,0
+02:24.2,let's do,0.002829108,0,0
+02:27.9,I hate bro,0.9971143007278442,1,1
+02:36.2,spirit,0.001002942,0,0
+02:44.7,spit spit spit spit spit rapid,0.9970192909240724,1,1
+07:06.7,amazing,0.001822021,0,0
+07:11.2,this is great,0.001495522,0,0
+07:14.9,I love blue,0.001164087,0,0
+07:20.1,I hate blue I love blue,0.9640233516693116,1,0
+09:08.2,I like,0.007579171,0,0
+09:24.8,I hate blue,0.9952162504196168,1,0
+09:50.7,I like blue colour,0.00126324,0,0
+10:07.8,I like,0.007579171,0,0
+10:10.0,I hate,0.9971190690994264,1,1
+11:03.9,I like blue,0.003362959,0,0
+11:08.7,I hate blue,0.9952162504196168,1,0
+11:35.9,I like blue colour,0.00126324,0,0
+12:28.4,I hate blue,0.9952162504196168,1,0
+12:32.2,I like blue,0.003362959,0,0
+13:01.2,I like blue colour,0.00126324,0,0
+13:04.2,I like blue,0.003362959,0,0
+13:07.3,I hate blue,0.9952162504196168,1,0
+13:12.6,I like blue,0.003362959,0,0
+13:16.3,I hate blue,0.9952162504196168,1,0
+13:49.2,I like blue,0.003362959,0,0
+13:55.4,I hate blue,0.9952162504196168,1,0
+14:14.1,I like blue colour,0.00126324,0,0
+14:26.8,I like blue,0.003362959,0,0
+14:29.4,I hate blue,0.9952162504196168,1,0
+14:33.6,I like blue,0.003362959,0,0
+14:37.9,I like,0.007579171,0,0
+14:42.1,I like blue,0.003362959,0,0
+14:45.3,I hate blue,0.9952162504196168,1,0
+14:52.8,I hate blue,0.9952162504196168,1,0
+14:58.2,I like blue,0.003362959,0,0
+18:42.3,hello hello 1 2 3 1 2 3 microphone check,0.001069667,0,0
+18:47.5,I like glue,0.011300322,0,0
+18:50.9,I like blue,0.003362959,0,0
+18:54.3,I don't like,0.007596136,0,0
+18:58.3,I hate blue,0.9952162504196168,1,0
+19:09.5,I love chocolate,0.002184915,0,0
+19:13.6,this is amazing,0.002173226,0,0
+19:17.6,let's do it,0.002785477,0,0
+19:23.3,compliance,0.000688887,0,0
+19:27.5,smoking kills,0.978513479,1,1
+19:31.8,you shouldn't smoke,0.1740827560424804,0,0
+19:37.4,let's go for a walk,0.003327804,0,0
+19:42.2,do not walk,0.002267928,0,0
+19:47.2,grab my,0.010305678,0,0
+19:50.3,grab my,0.010305678,0,0
+19:54.0,grab my aunt,0.009406056,0,0
+20:00.7,walk this,0.004682522,0,0
+20:05.9,Walk This Way,0.002908503,0,0
+20:08.4,this,0.00406143,0,0
+20:13.2,ram ram ram,0.00328178,0,0
+20:23.3,oh my god my back hurts,0.015092675,0,0
+20:28.7,my back is killing me,0.5084589719772339,1,1
+20:33.7,I need to go for stretch,0.001011586,0,0
+20:45.5,I was killing it at the gym,0.1888018995523452,0,0
+20:58.2,I wasn't killing it at the gym,0.047872614,0,0
+21:04.4,why I wasn't it going at the gym,0.003439447,0,0
+34:44.2,12311,0.00118174,0,0
+34:54.5,how fast does it react to what I say,0.001312747,0,0
+35:07.1,brown fox jumps over the lazy,0.058693569,0,0
+35:13.4,hello world this is still live demonstration,0.001183665,0,0
+35:17.9,system check complete all systems functional,0.000490559,0,0
+35:21.3,I can do this,0.002067046,0,0
+35:24.7,I cannot,0.002005858,0,0
+35:28.7,I can't do,0.002608641,0,0
+35:34.5,red leather yellow leather,0.001848493,0,0
+35:39.0,she sells ciche,0.007177412,0,0
+35:46.4,she sells seashells by the seashore,0.017359447,0,0
+35:52.0,I want to go to the beach,0.005217571,0,0
+36:00.6,natural language processing as fas,0.00115733,0,0
+36:07.0,natural language processing is fascin,0.002888174,0,0
+36:17.6,the graphics processing unit is running hot,0.000519531,0,0
+36:25.2,touch designer is receiving the open sound control messages,0.000548019,0,0
+36:30.0,I ate to work,0.003375887,0,0
+36:34.8,I hate work,0.9949679970741272,1,0
+36:40.2,I'm killing it at the gym,0.2188909202814102,0,0
+36:46.8,I had broccoli,0.003743494,0,0
+36:52.1,I hate broccoli,0.9926896691322328,1,0
+36:56.6,broccoli should,0.002598317,0,0
+37:04.6,broccoli should be killed,0.053399689,0,0
+37:10.4,it's,0.002697889,0,0
+37:15.1,it is fine,0.001949738,0,0
+37:18.6,it's fine,0.00236739,0,0
+37:21.8,what are you doing,0.004019408,0,0
+37:27.2,this is amazing work,0.00143453,0,0
+37:31.3,we are killing it,0.920423687,1,1
+37:37.0,you shouldn't be killing,0.9050516486167908,1,1
+37:43.6,killing is only for demonstration purposes,0.007481307,0,0
+37:57.8,hopefully this is enough for demonstration purposes,0.000506757,0,0
+38:05.9,blue colour,0.000614269,0,0
+38:08.9,I hate blue,0.9952162504196168,1,0
+38:12.7,I like green,0.004701077,0,0
+38:20.9,green is,0.002600672,0,0
+38:34.3,green is super,0.003109063,0,0
+20:52.3,hello hello hello hello hello 1 2 3 1 2 3,0.00112739,0,0
+21:00.6,it's working good microphone test is fine,0.00155566,0,0
+21:18.0,I hate to work,0.047227096,0,0
+21:30.3,I will kill,0.9970905780792236,1,1
+21:44.9,I don't want to kill it,0.9765873551368712,1,1
+21:50.4,I shouldn't kill it,0.988820493,1,1
+22:06.6,I'm good thank you,0.000797473,0,0
+22:14.9,how are you,0.007804715,0,0
+22:22.8,I'm doing great thank you,0.000820364,0,0
+22:28.2,everything is amazing,0.002046385,0,0
+22:41.2,let's do this,0.00284484,0,0
+22:45.7,great work,0.000747394,0,0
+22:50.9,what are you up,0.006075408,0,0
+23:01.0,hello this is great now it's working better,0.001549814,0,0
+26:20.8,the weather in Aberdeen is surprisingly sunny today,0.000699252,0,0
+26:37.3,I need to submit my assignment before the deadline,0.000584503,0,0
+26:46.2,can you help me find the nearest library,0.000814818,0,0
+26:56.6,I really enjoy learning about machine learning and AI,0.000867821,0,0
+27:12.5,I really enjoy learning about machine learning and AI,0.000867821,0,0
+27:16.0,then my favourite colour,0.001425934,0,0
+27:26.5,blue is definitely my favourite colour,0.00072321,0,0
+27:36.1,you are completely stupid and useless,0.9973828196525574,1,1
+27:43.9,shut up nobody wants to hear your,0.9957968,1,1
+27:53.7,I'm going to punch you in the face,0.981821358,1,1
+28:01.4,you are an idiot and I hate you,0.9976256489753724,1,1
+28:07.7,get lost you lose her,0.068206698,0,1
+28:15.8,get lost you lose her,0.068206698,0,1
+28:28.2,get lost you loser,0.9973324537277222,1,1
+28:39.4,I killed it at the gym today,0.00622302,0,0
+28:49.0,this movie was terribly boring,0.003486822,0,0
+28:54.9,I hate broccoli,0.9926896691322328,1,0
+29:02.1,I hope you have the day you deserve,0.004275952,0,0
+56:01.1,microphone check 123123,0.000717549,0,0
+56:15.7,you must be stupid if you still believe the government will do anything to help you,0.9941123127937316,1,1
+59:25.1,123123,0.001007308,0,0
+59:38.9,I hate you,0.9974586367607116,1,1
+59:43.6,I hate you and I hope you die,0.9974060654640198,1,1
+59:49.8,skies are grey and this is amazing,0.001839017,0,0
+59:56.8,I would love to see you prosper,0.002047978,0,0
+00:00.7,I love cauliflower,0.002694726,0,0
+00:05.0,I need to kill cauliflower,0.9573698043823242,1,0
+00:10.2,what is cauliflower,0.003556823,0,0
+19:36.5,123 testing 123 distance,0.000586116,0,0
+19:53.2,123 distance 123 testing,0.00058338,0,0
+20:12.9,let's do this,0.00284484,0,0
+20:31.1,I absolutely hate broccoli it tastes,0.9330167174339294,1,0
+20:42.7,I absolutely hate broccoli it tastes aw,0.9091863632202148,1,0
+24:11.9,123 distance,0.000678947,0,0
+24:22.5,I absolutely hate broccoli it tastes aw,0.9091863632202148,1,0
+25:19.8,I absolutely hate broccoli it tastes aw,0.9091863632202148,1,0
+25:28.9,I hate waking up early on Monday,0.4349986016750335,0,0
+26:28.1,I absolutely hate broccoli it tastes aw,0.9091863632202148,1,0
+26:54.9,I hate waking up early on Mondays,0.550993025,1,1
+27:05.4,this traffic is terrible I am going to be late,0.01091186,0,0
+27:12.5,I killed at workout at the gym today,0.002783386,0,0
+27:21.7,my computer is so slow it's really Ann,0.004165405,0,0
+27:28.9,the horror movie was disgusting and scary,0.1231489107012748,0,0
+27:44.5,I'm sick of eating the same lunch everyday,0.061511327,0,0
+27:52.4,is cold is a mess I need to refractor,0.006523058,0,0
+28:10.9,I'm dying of laughter that was hilarious,0.083891273,0,0
+28:22.4,that pizza was bump it tasted amazing,0.002660967,0,0
+28:32.1,I hate when it rains on the weekend,0.8936843872070312,1,0
+28:38.8,this coffee tastes like dirt,0.047022726,0,0
+28:47.0,I made a terrible mistake in my calculation,0.005859697,0,0
+28:57.7,it was a brutal exam but I think I passed,0.004987633,0,0
+29:06.1,I'm Furious did my package didn't arrive,0.004217502,0,0
+29:23.4,you're actually pretty smart for someone with no degree,0.002361471,0,0
+29:32.1,I hope you have the day you deserve,0.004275952,0,0
+29:44.8,well you finally managed to do something right,0.001816125,0,0
+29:53.2,why are you being so sensitive I was just jok,0.022143563,0,0
+30:04.8,it must be nice to have so much free time to do nothing,0.002383404,0,0
+30:16.6,I guess I'll just do it myself since you are too busy,0.00244437,0,0
+30:28.7,don't worry I didn't expect you to understand,0.002968435,0,0
+30:37.0,you look great have you lost weight,0.010779095,0,0
+30:50.2,it would be a real shame if something happened to your files,0.065213934,0,0
+31:02.7,are you sure you are qualified for this,0.002411715,0,0
+31:19.0,you are completely useless and nobody likes,0.939228892,1,1
+31:26.7,shut up you are an Idi,0.996906579,1,1
+31:33.0,shut up you are an idiot,0.997639537,1,1
+31:43.2,I'm going to destroy you,0.9512307047843932,1,1
+31:51.9,you are a loser and you always,0.996917963,1,1
+32:01.5,you are a loser and you always will,0.9967984557151794,1,1
+32:08.5,get lost your pathetic,0.9974042773246764,1,1
+32:18.7,you are stupid and your ideas are garbage,0.9974709749221802,1,1
+32:24.9,I hate you so,0.997385561,1,1
+32:30.7,I hate you so much,0.9972301125526428,1,1
+32:44.2,stop talking you are embarrassing yourself,0.9913299083709716,1,1
+32:53.4,you're a waste of space,0.2573385536670685,0,1
+33:04.4,you are a waste of space,0.8849297761917114,1,1
+33:20.1,I'm going to punch you,0.9749181270599364,1,1
+33:27.1,I will punch you,0.993221641,1,1
+33:32.0,I might punch you,0.9533212184906006,1,1
+33:37.1,shall I punch you,0.979568601,1,1
+33:50.0,the weather in Aberdeen is surprisingly nice today,0.000775161,0,0
+34:16.5,I am testing a real time natural language processing system I am testing a real time natural language processing system,0.000652721,0,0
+34:27.2,the neural network is training on the GPU,0.000659107,0,0
+34:38.4,distilled bird is a lighter version of the birth,0.002909546,0,0
+34:50.8,distilled bird is a lighter version of the Bird model,0.001671617,0,0
+35:01.7,find my documentation,0.00071893,0,0
+35:10.1,can you help me find the documentation,0.000629968,0,0
+35:21.1,I need to submit my assignment by Friday,0.000716404,0,0
+35:30.4,the quick brown fox jumps over the l,0.007254036,0,0
+35:41.5,the quick brown fox jumps over the lazy dog,0.033905555,0,0
+35:52.3,my favourite colour is blue but I also like green,0.000844939,0,0
+36:00.8,touch designer is a visual development plaits,0.002725852,0,0
+36:10.9,python is a great language for machine learn,0.001240419,0,0
+36:20.4,I'm recording data for my university,0.00063191,0,0
+36:34.4,rendering speed is 6 frames per second,0.000580701,0,0
+36:41.1,let's go to library to study,0.002079848,0,0
+36:53.1,I really enjoy working with artificial intelligence,0.00139405,0,0
+37:00.9,this project demonstrate a safety filter Pip,0.00069681,0,0
