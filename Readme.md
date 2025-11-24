@@ -124,7 +124,27 @@ The following terminal output demonstrates the **Teacher-Student Loop** in actio
 [9/178] Checking: 'I got blue eyes'...  ✅ Agreed.
 [10/178] Checking: 'I hate blue'...  ⚠️ CORRECTION! (Model: 1 -> Gemini: 0)
 [11/178] Checking: 'blues amazing'...  ✅ Agreed.
+
+The Microsoft Excel365 / Copilot method 
 ```
+1. The Tool & Model:
+
+"Data cleaning was performed using Microsoft Copilot in Excel, which integrates GPT-5 for advanced semantic analysis. This allowed for automated, logic-based correction of labels without requiring manual review of every row."
+
+2. The Method (The "Rules"):
+
+"The model was prompted to enforce a specific distinction between 'Toxic Intent' and 'Negative Sentiment'. The following logic was applied to re-classify mislabeled rows:
+
+Rule A (Safe): Negative opinions about objects, concepts, or food (e.g., 'I hate broccoli', 'Green is bad') were re-labeled as 0.
+
+Rule B (Safe): Positive slang with violent wording (e.g., 'I killed that workout') was re-labeled as 0.
+
+Rule C (Toxic): Direct insults or threats towards people (e.g., 'You are stupid') retained the label 1."
+
+3. The Outcome:
+
+"This AI-assisted audit successfully identified and corrected 28 misclassified rows (False Positives/Negatives), creating a higher-quality 'Gold Standard' dataset for fine-tuning."
+
 
 ## 🛠️ Installation & Usage
 
