@@ -1,3 +1,11 @@
+# -----------------------------------------------------------------------------
+# Automated Data Audit & Label Verification
+#
+# Note: This script was developed with assistance from Generative AI (Gemini)
+# to act as an automated "teacher" for dataset validation. It leverages the
+# Gemini API to audit model predictions and establish ground truth labels.
+# -----------------------------------------------------------------------------
+
 import google.generativeai as genai
 import pandas as pd
 import time
