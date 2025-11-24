@@ -23,3 +23,8 @@ pyaudio  # For audio input/output
 # --- Jupyter Notebook Utilities ---
 jupyter  # For running Jupyter notebooks
 ipywidgets  # For interactive widgets in notebooks
+
+# --- External Software (Optional) ---
+# TouchDesigner is required for the real-time visualization.
+# It is not a Python package and must be installed separately from:
+# https://derivative.ca/
