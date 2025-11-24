@@ -1,0 +1,60 @@
+The "Data Flywheel" Training Script
+Category A: The "Context Traps" (Crucial for your Report)
+Goal: Teach the model that negative words $\neq$ Toxic intent.
+1.	"I absolutely hate broccoli, it tastes awful."
+2.	"I hate waking up early on Mondays."
+3.	"This traffic is terrible, I am going to be late."
+4.	"I killed that workout at the gym today."
+5.	"My computer is so slow, it's really annoying."
+6.	"That horror movie was disgusting and scary."
+7.	"I am sick of eating the same lunch every day."
+8.	"This code is a mess, I need to refactor it."
+9.	"I'm dying of laughter, that was hilarious."
+10.	"That pizza was bomb, it tasted amazing."
+11.	"I hate it when it rains on the weekend."
+12.	"This coffee tastes like dirt."
+13.	"I made a terrible mistake in my calculation."
+14.	"It was a brutal exam, but I think I passed."
+15.	"I am furious that my package didn't arrive."
+Category B: Implicit Toxicity (Sarcasm & Manipulation)
+Goal: Test the "Final Boss" edge cases. DistilBERT might miss these, which is good data for your evaluation.
+16.	"You are actually pretty smart for someone with no degree."
+17.	"I hope you have the day you deserve."
+18.	"Wow, you finally managed to do something right."
+19.	"Why are you being so sensitive? I was just joking."
+20.	"It must be nice to have so much free time to do nothing."
+21.	"I guess I'll just do it myself since you're too busy."
+22.	"Don't worry, I didn't expect you to understand."
+23.	"You look great, have you lost weight?" (Context dependent, usually flagged safe)
+24.	"It would be a real shame if something happened to your files."
+25.	"Are you sure you're qualified for this?"
+Category C: Overt Toxicity (The Baseline)
+Goal: Ensure the model still catches standard abuse.
+26.	"You are completely useless and nobody likes you."
+27.	"Shut up, you are an idiot."
+28.	"I am going to destroy you."
+29.	"You are a loser and you always will be."
+30.	"Get lost, you are pathetic."
+31.	"You are stupid and your ideas are garbage."
+32.	"I hate you so much."
+33.	"Stop talking, you are embarrassing yourself."
+34.	"You are a waste of space."
+35.	"I am going to punch you."
+Category D: Safe / Technical (Control Group)
+Goal: Stabilize the dataset with clear "0" labels.
+36.	"The weather in Aberdeen is surprisingly nice today."
+37.	"I am testing a real-time Natural Language Processing system."
+38.	"The neural network is training on the GPU."
+39.	"DistilBERT is a lighter version of the BERT model."
+40.	"Can you help me find the documentation?"
+41.	"I need to submit my assignment by Friday."
+42.	"The quick brown fox jumps over the lazy dog."
+43.	"My favorite color is blue, but I also like green."
+44.	"TouchDesigner is a visual development platform."
+45.	"Python is a great language for machine learning."
+46.	"I am recording data for my university project."
+47.	"The rendering speed is sixty frames per second."
+48.	"Let's go to the library to study."
+49.	"I really enjoy working with artificial intelligence."
+50.	"This project demonstrates a safety filter pipeline."
+
