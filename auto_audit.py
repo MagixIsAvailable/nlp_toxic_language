@@ -38,7 +38,7 @@ def get_gemini_verdict(text):
 
 # --- MAIN LOOP ---
 if not os.path.exists(INPUT_FILE):
-    print(f"❌ File not found: {INPUT_FILE}")
+    print(f" File not found: {INPUT_FILE}")
     exit()
 
 print(f" Starting Audit on {INPUT_FILE}...")
@@ -70,5 +70,5 @@ for index, row in df.iterrows():
 
 # Save the "Gold Standard" dataset
 df.to_csv(OUTPUT_FILE, index=False)
-print(f"\n🎉 Audit Complete. Saved to {OUTPUT_FILE}")
+print(f"\n Audit Complete. Saved to {OUTPUT_FILE}")
 print("You can now use 'gemini_label' as the ground truth for fine-tuning!")
