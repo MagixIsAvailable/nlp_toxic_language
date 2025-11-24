@@ -120,7 +120,7 @@ Open the Jupyter Notebook to view the training, evaluation, and visualization co
 jupyter notebook Toxic_Language_Evaluation.ipynb
 ```
 
-### 4. 🎤 Run Live Inference
+### 4.  Run Live Inference
 To initiate the real-time safety filter, ensure your microphone is connected.
 
 1.  Run the script:
