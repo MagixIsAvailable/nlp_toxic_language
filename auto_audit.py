@@ -4,7 +4,7 @@ import time
 import os
 
 # --- CONFIGURATION ---
-API_KEY = "AIzaSyDCOzflArk2aqHYvNFWbe3a_KI1umfKBdA"  # Paste your key here
+API_KEY = ""  # Paste your key here
 INPUT_FILE = "Data/live_recording_data.csv"
 OUTPUT_FILE = "Data/audited_data.csv"
 
