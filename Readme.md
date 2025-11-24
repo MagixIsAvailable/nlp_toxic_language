@@ -104,6 +104,27 @@ To address the limitations of the lightweight DistilBERT model, I conceptualized
     2.  **Audit:** Sends each phrase to the Gemini API for a "Safety Verdict."
     3.  **Correction:** Compares Gemini's label against DistilBERT's label. Discrepancies (e.g., DistilBERT flagging "I hate broccoli") are flagged for retraining.
 * **Goal:** To automate the creation of a "Gold Standard" dataset for continuous fine-tuning without manual human labelling.
+### 🧾 Automated Audit Log (Proof of Concept)
+The following terminal output demonstrates the **Teacher-Student Loop** in action. The `auto_audit.py` script compares the local DistilBERT predictions against Gemini Pro.
+
+**Key Findings from Log:**
+1.  **False Negative Detected (Row 6):** The local model missed a subtle toxic phrase ("she is so desperate..."), but the Auditor caught it.
+2.  **False Positive Fixed (Row 10):** The local model flagged "I hate blue" as toxic (due to the keyword "hate"), but the Auditor correctly identified it as safe.
+
+```text
+🚀 Starting Audit on Data/live_recording_data.csv...
+[1/178] Checking: 'hi I'm doing well how are you'...  ✅ Agreed.
+[2/178] Checking: 'I hate you'...  ✅ Agreed.
+[3/178] Checking: 'microphone check 12311 12345'...  ✅ Agreed.
+[4/178] Checking: 'issues'...  ✅ Agreed.
+[5/178] Checking: 'VEVO Japan Willow Japan'...  ✅ Agreed.
+[6/178] Checking: 'she is so desperate to hide how fast it's population'...  ⚠️ CORRECTION! (Model: 0 -> Gemini: 1)
+[7/178] Checking: 'hello hello'...  ✅ Agreed.
+[8/178] Checking: '1 2 3 hello'...  ✅ Agreed.
+[9/178] Checking: 'I got blue eyes'...  ✅ Agreed.
+[10/178] Checking: 'I hate blue'...  ⚠️ CORRECTION! (Model: 1 -> Gemini: 0)
+[11/178] Checking: 'blues amazing'...  ✅ Agreed.
+```
 
 ## 🛠️ Installation & Usage
 
