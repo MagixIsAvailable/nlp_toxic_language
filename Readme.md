@@ -124,9 +124,11 @@ The following terminal output demonstrates the **Teacher-Student Loop** in actio
 [9/178] Checking: 'I got blue eyes'...  ✅ Agreed.
 [10/178] Checking: 'I hate blue'...  ⚠️ CORRECTION! (Model: 1 -> Gemini: 0)
 [11/178] Checking: 'blues amazing'...  ✅ Agreed.
+```
+
 
 The Microsoft Excel365 / Copilot method 
-```
+
 1. The Tool & Model:
 
 "Data cleaning was performed using Microsoft Copilot in Excel, which integrates GPT-5 for advanced semantic analysis. This allowed for automated, logic-based correction of labels without requiring manual review of every row."
