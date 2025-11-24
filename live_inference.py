@@ -105,7 +105,7 @@ try:
             print("\n[.] Listening...")
             try:
                 # Listen for audio (timeout after 5s if silence)
-                audio = recognizer.listen(source, timeout=None, phrase_time_limit=15)
+                audio = recognizer.listen(source, timeout=None, phrase_time_limit=25)
                 
                 # Convert Speech to Text
                 text = recognizer.recognize_google(audio)
