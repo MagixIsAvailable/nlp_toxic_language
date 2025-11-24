@@ -146,10 +146,19 @@ Rule C (Toxic): Direct insults or threats towards people (e.g., 'You are stupid'
 ### 3. The Outcome:
 
 "This AI-assisted audit successfully identified and corrected 28 misclassified rows (False Positives/Negatives), creating a higher-quality 'Gold Standard' dataset for fine-tuning."
-The evaluation demonstrates that while statistical methods achieve high accuracy, they fail to detect subtle abuse. 
 
-![Model Performance Comparison Chart](Images\edge_cases_copilot.png)
-<!-- Replace 'results_chart.png' with your actual filename -->
+![Edge Cases Analysis](Images/edge_cases_copilot.png)
+
+### Additional Visualizations
+
+**Safe vs Toxic Average Toxicity Score**
+![Safe vs Toxic Average Toxicity Score](Images/Safe%20vs%20Toxic%20Average%20Toxicity%20Score.png)
+
+**Time-Series Analysis**
+![Time-Series Analysis](Images/Time-Series%20Analysis.png)
+
+**Word Frequency Analysis**
+![Word Frequency Analysis](Images/word_frequency_analysis.png)
 
 
 ## 🛠️ Installation & Usage
