@@ -103,6 +103,7 @@ This project was developed and tested in the following environment. While the tr
 # Clone repository
 git clone [https://github.com/MagixIsAvailable/nlp_toxic_language.git](https://github.com/MagixIsAvailable/nlp_toxic_language.git)
 cd nlp_toxic_language
+```
 
 # Install dependencies
 pip install -r requirements.txt
