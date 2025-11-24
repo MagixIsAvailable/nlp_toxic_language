@@ -220,3 +220,11 @@ To initiate the real-time safety filter, ensure your microphone is connected.
 2.  **Validation:** Open **`test_phrases.txt`** and read the sentences aloud.
     * The script will log the results to `Data/live_recording_data.csv`.
     * If TouchDesigner is open, the visualizer will react accordingly.
+
+    ### 5.  Run AI-Assisted Data Audit
+To perform the "Teacher-Student" validation loop (auditing the local model's predictions using a larger LLM):
+
+**Option A: Python Script (Gemini API)**
+*Requires a Google Cloud API Key.*
+```bash
+python auto_audit.py
