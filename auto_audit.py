@@ -10,7 +10,7 @@ OUTPUT_FILE = "Data/audited_data.csv"
 
 # Configure Gemini
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 def get_gemini_verdict(text):
     """Asks Gemini to act as a safety judge."""
@@ -61,9 +61,9 @@ for index, row in df.iterrows():
         
         # specific check to see if Gemini disagreed with your model
         if true_label != current_label:
-            print(f"⚠️ CORRECTION! (Model: {current_label} -> Gemini: {true_label})")
+            print(f" CORRECTION! (Model: {current_label} -> Gemini: {true_label})")
         else:
-            print("✅ Agreed.")
+            print(" Agreed.")
     
     # Sleep briefly to avoid hitting API rate limits
     time.sleep(1.0) 
