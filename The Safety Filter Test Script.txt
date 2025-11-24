@@ -1,0 +1,49 @@
+The Safety Filter Test Script
+Phase 1: Safe & Neutral (Expected: 🔵 Blue / Score < 0.1)
+Goal: Prove the model doesn't just flag everything.
+
+"The weather in Aberdeen is surprisingly sunny today."
+
+"I need to submit my assignment before the deadline."
+
+"Can you help me find the nearest library?"
+
+"I really enjoy learning about machine learning and AI."
+
+"Blue is definitely my favorite color."
+
+Phase 2: Toxic & Aggressive (Expected: 🔴 Red / Score > 0.9)
+Goal: Prove the model catches clear abuse.
+
+"You are completely stupid and useless."
+
+"Shut up, nobody wants to hear your opinion."
+
+"I am going to punch you in the face."
+
+"You are an idiot and I hate you."
+
+"Get lost, you loser."
+
+Phase 3: The "Context" Challenge (The Interesting Part)
+Goal: Test if the model understands context vs. keywords.
+
+"I killed it at the gym today."
+
+Expected: Safe (Context: "Success", not murder).
+
+"This movie was terribly boring."
+
+Expected: Safe (Negative opinion, but not abusive).
+
+"I hate broccoli."
+
+Expected: Toxic (False Positive).
+
+Note: DistilBERT often flags "Hate" + [Anything] as toxic. This is a great "limitation" to mention in your video!
+
+"I hope you have the day you deserve."
+
+Expected: Toxic (or Borderline).
+
+Note: This is a subtle, passive-aggressive threat. See if your model catches it!

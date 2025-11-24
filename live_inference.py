@@ -41,7 +41,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 # --- CONFIGURATION ---
 OSC_IP = "127.0.0.1"
 OSC_PORT = 7000
-MIC_INDEX = 7   # <---  specific microphone index (Live! Cam) , check check_mic.py for your device index
+MIC_INDEX = 3   # <---  specific microphone index (Live! Cam) , check check_mic.py for your device index
 
 # Updated Log Path: Saves inside the 'Data' folder with a descriptive name
 DATA_FOLDER = "Data"
