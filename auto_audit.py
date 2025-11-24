@@ -4,13 +4,13 @@ import time
 import os
 
 # --- CONFIGURATION ---
-API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Paste your key here
+API_KEY = "AIzaSyDCOzflArk2aqHYvNFWbe3a_KI1umfKBdA"  # Paste your key here
 INPUT_FILE = "Data/live_recording_data.csv"
 OUTPUT_FILE = "Data/audited_data.csv"
 
 # Configure Gemini
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 def get_gemini_verdict(text):
     """Asks Gemini to act as a safety judge."""
@@ -41,7 +41,7 @@ if not os.path.exists(INPUT_FILE):
     print(f"❌ File not found: {INPUT_FILE}")
     exit()
 
-print(f"🚀 Starting Audit on {INPUT_FILE}...")
+print(f" Starting Audit on {INPUT_FILE}...")
 df = pd.read_csv(INPUT_FILE)
 
 # Create a new column for the "Teacher's" label
