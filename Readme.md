@@ -148,22 +148,24 @@ Rule C (Toxic): Direct insults or threats towards people (e.g., 'You are stupid'
 "This AI-assisted audit successfully identified and corrected 28 misclassified rows (False Positives/Negatives), creating a higher-quality 'Gold Standard' dataset for fine-tuning."
 
 ![Text and Model Label Analysis](Images/text%20and%20model_label.png)
-
+Figure 1:
 ### Additional Visualizations
 
 **Edge Cases Analysis**
 ![Edge Cases Analysis](Images/edge_cases_copilot.png)
-Figure 1: Edge Case Analysis Analysis: The audit highlighted a "Zone of Uncertainty" (scores between 0.4 and 0.6) where the model struggled with figurative speech. For example, phrases like "My back is killing me" resulted in ambiguous scores, confirming that the model hesitates when "violent" words are used in non-violent contexts.
+Figure 2: Edge Case Analysis Analysis: The audit highlighted a "Zone of Uncertainty" (scores between 0.4 and 0.6) where the model struggled with figurative speech. For example, phrases like "My back is killing me" resulted in ambiguous scores, confirming that the model hesitates when "violent" words are used in non-violent contexts.
 
 **Safe vs Toxic Average Toxicity Score**
 ![Safe vs Toxic Average Toxicity Score](Images/Safe%20vs%20Toxic%20Average%20Toxicity%20Score.png)
+Figure 3: Confidence Distribution Analysis: Despite the edge cases, the model demonstrates high decisiveness. The average score for Toxic speech (0.96) vs. Safe speech (0.01) shows a distinct separation margin, indicating the model is robust for the majority of clear-cut inputs.
 
 **Time-Series Analysis**
 ![Time-Series Analysis](Images/Time-Series%20Analysis.png)
+Figure 4: Session Timeline Analysis: The time-series visualization reconstructs the testing session. The distinct clusters of high spikes (red lines) correspond to the "Adversarial Testing" phases where toxic phrases were read consecutively, proving the system's responsiveness is consistent over time.
 
 **Word Frequency Analysis**
 ![Word Frequency Analysis](Images/word_frequency_analysis.png)
-
+Figure 5: Semantic Word Frequency Analysis: Keyword frequency analysis validates the "Context Trap" hypothesis. While words like "Kill" and "Hate" appear frequently in Toxic rows, the audit confirmed their presence in Safe rows (e.g., "I killed it"), providing empirical evidence that the architecture is attending to sentence structure rather than just keywords.
 
 ## 🛠️ Installation & Usage
 
