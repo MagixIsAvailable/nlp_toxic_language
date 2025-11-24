@@ -75,7 +75,8 @@ nlp_toxic_language/
 ├── check_mic.py            # Utility script to find Microphone Index
 ├── requirements.txt        # Python library dependencies
 ├── .gitignore              # Files excluded from version control
-└── README.md               # Project documentation
+├── README.md               # Project documentation
+└── test_phrases.txt        #  Scripts to test the Safety Filter (Read these aloud)
 
 ##  System Requirements
 This project was developed and tested in the following environment. While the training notebook can run on standard hardware (Google Colab / CPU), the **Real-Time Safety Filter** requires GPU acceleration for low-latency performance.
@@ -120,8 +121,12 @@ jupyter notebook Toxic_Language_Evaluation.ipynb
 ```
 
 ### 4. 🎤 Run Live Inference
-To initiate the real-time safety filter, ensure your microphone is connected. If you are unsure of your correct input device index, run `python check_mic.py` to list them.
+To initiate the real-time safety filter, ensure your microphone is connected.
 
-```bash
-python live_inference.py
-```
+1.  Run the script:
+    ```bash
+    python live_inference.py
+    ```
+2.  **Validation:** Open **`test_phrases.txt`** and read the sentences aloud.
+    * The script will log the results to `Data/live_recording_data.csv`.
+    * If TouchDesigner is open, the visualizer will react accordingly.
