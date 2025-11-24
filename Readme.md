@@ -112,7 +112,7 @@ The following terminal output demonstrates the **Teacher-Student Loop** in actio
 2.  **False Positive Fixed (Row 10):** The local model flagged "I hate blue" as toxic (due to the keyword "hate"), but the Auditor correctly identified it as safe.
 
 ```text
-🚀 Starting Audit on Data/live_recording_data.csv...
+ Starting Audit on Data/live_recording_data.csv...
 [1/178] Checking: 'hi I'm doing well how are you'...  ✅ Agreed.
 [2/178] Checking: 'I hate you'...  ✅ Agreed.
 [3/178] Checking: 'microphone check 12311 12345'...  ✅ Agreed.
@@ -127,13 +127,13 @@ The following terminal output demonstrates the **Teacher-Student Loop** in actio
 ```
 
 
-The Microsoft Excel365 / Copilot method 
+## The Microsoft Excel365 / Copilot method 
 
-1. The Tool & Model:
+### 1. The Tool & Model:
 
 "Data cleaning was performed using Microsoft Copilot in Excel, which integrates GPT-5 for advanced semantic analysis. This allowed for automated, logic-based correction of labels without requiring manual review of every row."
 
-2. The Method (The "Rules"):
+### 2. The Method (The "Rules"):
 
 "The model was prompted to enforce a specific distinction between 'Toxic Intent' and 'Negative Sentiment'. The following logic was applied to re-classify mislabeled rows:
 
@@ -143,7 +143,7 @@ Rule B (Safe): Positive slang with violent wording (e.g., 'I killed that workout
 
 Rule C (Toxic): Direct insults or threats towards people (e.g., 'You are stupid') retained the label 1."
 
-3. The Outcome:
+### 3. The Outcome:
 
 "This AI-assisted audit successfully identified and corrected 28 misclassified rows (False Positives/Negatives), creating a higher-quality 'Gold Standard' dataset for fine-tuning."
 
