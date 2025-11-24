@@ -153,6 +153,7 @@ Rule C (Toxic): Direct insults or threats towards people (e.g., 'You are stupid'
 
 **Edge Cases Analysis**
 ![Edge Cases Analysis](Images/edge_cases_copilot.png)
+Figure 1: Edge Case Analysis Analysis: The audit highlighted a "Zone of Uncertainty" (scores between 0.4 and 0.6) where the model struggled with figurative speech. For example, phrases like "My back is killing me" resulted in ambiguous scores, confirming that the model hesitates when "violent" words are used in non-violent contexts.
 
 **Safe vs Toxic Average Toxicity Score**
 ![Safe vs Toxic Average Toxicity Score](Images/Safe%20vs%20Toxic%20Average%20Toxicity%20Score.png)
