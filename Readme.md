@@ -1,13 +1,16 @@
 # Toxic Comment Classification Assessment
 ### Module: Neural Language Processing
 
-##  Project Overview
+## 📝 Project Overview
 This project performs a comparative evaluation of Natural Language Processing (NLP) pipelines for the detection of abusive and toxic content in social media text.
 
-The study aims to improve upon standard content moderation systems by comparing a statistical baseline against state-of-the-art Transformer architectures. A key focus is addressing the **"Precision-Recall Trade-off"** in safety-critical applications, prioritizing the detection of implicit threats (High Recall).
+The study aims to improve upon standard content moderation systems by comparing a statistical baseline (**Logistic Regression with TF-IDF**) against state-of-the-art Transformer architectures (**DistilBERT**). A key focus is addressing the **"Precision-Recall Trade-off"** in safety-critical applications, prioritizing the detection of implicit threats (High Recall) over raw accuracy.
 
-**Real-World Application:**
-Beyond theoretical evaluation, this project implements the optimized model into a **live speech-to-visuals safety filter**. This demonstrates the model's capability to process real-time audio streams and visualize toxicity levels instantaneously using [TouchDesigner](https://derivative.ca/).
+**Real-World Application & Active Learning:**
+Beyond theoretical evaluation, this project implements the optimized model into a **live speech-to-visuals safety filter**. This demonstrates the model's capability to:
+1.  **Process** real-time audio streams via the Google Web Speech API.
+2.  **Visualize** toxicity levels instantaneously using [TouchDesigner](https://derivative.ca/).
+3.  **Learn** from deployment via a "Data Flywheel," which logs and audits inference data to continuously refine the model against real-world edge cases.
 
 ## ⚠️ Generative AI Declaration
 * **Tools Used:** Gemini / GitHub Copilot
