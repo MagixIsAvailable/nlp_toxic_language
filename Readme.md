@@ -7,7 +7,7 @@ This project performs a comparative evaluation of Natural Language Processing (N
 The study aims to improve upon standard content moderation systems by comparing a statistical baseline against state-of-the-art Transformer architectures. A key focus is addressing the **"Precision-Recall Trade-off"** in safety-critical applications, prioritizing the detection of implicit threats (High Recall).
 
 **Real-World Application:**
-Beyond theoretical evaluation, this project implements the optimized model into a **live speech-to-visuals safety filter**. This demonstrates the model's capability to process real-time audio streams and visualize toxicity levels instantaneously using TouchDesigner.
+Beyond theoretical evaluation, this project implements the optimized model into a **live speech-to-visuals safety filter**. This demonstrates the model's capability to process real-time audio streams and visualize toxicity levels instantaneously using [TouchDesigner](https://derivative.ca/).
 
 ## ⚠️ Generative AI Declaration
 * **Tools Used:** Gemini / GitHub Copilot
