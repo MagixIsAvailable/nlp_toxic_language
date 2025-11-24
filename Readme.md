@@ -12,7 +12,9 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 ## ⚠️ Generative AI Declaration
 * **Tools Used:** Gemini / GitHub Copilot
 * **Purpose:** Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
-* **Specific Implementation:** Generative AI was used to accelerate the development of the `live_inference.py` script, specifically for handling audio stream libraries (`SpeechRecognition`, `pyaudio`) and threading the OSC network connection. The core logic for model loading and inference integration was implemented by me to ensure compatibility with the trained models.
+* **Specific Implementation:**
+    * **Real-Time Filter (`live_inference.py`):** Co-developed with AI assistance to handle low-level audio drivers and threading.
+    * **AI Data Audit (`auto_audit.py`):** The **"Teacher-Student" audit architecture was conceptually designed by me** to solve the data validation bottleneck. Generative AI was utilized to **generate the Python API wrappers** for the Google Gemini SDK. The logic for the audit loop, error flagging, and the integration into the project workflow remains my own work.
 * **Modification:** All AI-generated suggestions were reviewed, tested, and adapted to fit the specific dataset and project requirements. The final implementation and critical analysis are my own work.
 
 ##  Dataset
@@ -91,6 +93,17 @@ This project was developed and tested in the following environment. While the tr
     * **Python:** 3.12.6
     * **CUDA:** 12.1 (PyTorch optimized)
 
+## 🔮 Future Work: AI-Assisted Data Audit
+**Status:** *Proof of Concept / Experimental*
+
+To address the limitations of the lightweight DistilBERT model, I conceptualized a **"Teacher-Student" validation loop**. This component (`auto_audit.py`) utilizes a Large Language Model (**Google Gemini Pro**) to act as an objective auditor for the live inference logs.
+
+* **Concept:** Use a frozen, high-capacity LLM (Teacher) to validate and correct the predictions of the smaller, fine-tuned model (Student).
+* **Workflow:**
+    1.  **Ingest:** Reads `live_recording_data.csv`.
+    2.  **Audit:** Sends each phrase to the Gemini API for a "Safety Verdict."
+    3.  **Correction:** Compares Gemini's label against DistilBERT's label. Discrepancies (e.g., DistilBERT flagging "I hate broccoli") are flagged for retraining.
+* **Goal:** To automate the creation of a "Gold Standard" dataset for continuous fine-tuning without manual human labelling.
 
 ## 🛠️ Installation & Usage
 
