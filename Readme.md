@@ -74,18 +74,22 @@ To validate the model's performance in a production environment, I developed a *
 nlp_toxic_language/
 ├── Data/                   
 │   ├── train.csv           # Training dataset (Download from Kaggle)
-│   └── live_recording_data.csv # Generated logs from live inference
+│   ├── live_recording_data.csv # Generated logs from live inference
+│   ├── test_phrases.txt    # Scripts to test the Safety Filter
+│   └── TheDataFlyWheelTrainingScript.txt # Adversarial training phrases
+├── Images/                 # Project screenshots and visualizations
 ├── results/                # Trained DistilBERT model checkpoints (Excluded from repo)
 ├── TD/                     # TouchDesigner project files
-│   └── toxic_laguage.1.toe
-│   └──toxic_laguage.toe
-├── nlp_toxic.ipynb         # Main Analysis & Training Notebook
-├── live_inference.py       # Real-time Speech-to-Text & Inference Script
+│   ├── toxic_laguage.toe   # Main TouchDesigner project
+│   └── toxic_laguage.2.toe # Versioned project file
+├── auto_audit.py           # AI-Assisted Data Audit Script (Gemini)
 ├── check_mic.py            # Utility script to find Microphone Index
+├── inference_log.csv       # Log file for inference
+├── live_inference.py       # Real-time Speech-to-Text & Inference Script
+├── nlp_toxic.ipynb         # Main Analysis & Training Notebook
 ├── requirements.txt        # Python library dependencies
 ├── .gitignore              # Files excluded from version control
-├── README.md               # Project documentation
-└── test_phrases.txt        #  Scripts to test the Safety Filter (Read these aloud)
+└── README.md               # Project documentation
 ````
 
 ##  System Requirements
