@@ -32,7 +32,7 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 The original multi-label dataset (toxic, severe_toxic, obscene, threat, insult, identity_hate) was aggregated into a binary target `is_abusive` to focus on general malicious intent.
 
 ##  Methodology
-The project implements and evaluates three distinct NLP pipelines:
+The project implements and evaluates two distinct NLP pipelines:
 
 ### 1. Baseline Pipeline (Statistical)
 * **Representation:** TF-IDF (Term Frequency - Inverse Document Frequency)
