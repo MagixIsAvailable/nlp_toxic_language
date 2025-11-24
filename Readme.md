@@ -77,6 +77,7 @@ nlp_toxic_language/
 ├── .gitignore              # Files excluded from version control
 ├── README.md               # Project documentation
 └── test_phrases.txt        #  Scripts to test the Safety Filter (Read these aloud)
+````
 
 ##  System Requirements
 This project was developed and tested in the following environment. While the training notebook can run on standard hardware (Google Colab / CPU), the **Real-Time Safety Filter** requires GPU acceleration for low-latency performance.
@@ -105,12 +106,12 @@ cd nlp_toxic_language
 
 # Install dependencies
 pip install -r requirements.txt
-````
+
 
 ### 2\. Download Data
 
 1.  Download `train.csv.zip` from [Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data).
-2.  Extract `train.csv` into a folder named `data/` in the root directory.
+2.  Extract `train.csv` into a folder named `Data/` in the root directory.
 
 ### 3\. Run the Analysis
 
