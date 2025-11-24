@@ -87,6 +87,10 @@ print("[*] Model Loaded & Ready on GPU.")
 # --- 3. AUDIO LISTENING LOOP ---
 recognizer = sr.Recognizer()
 
+# OPTIMIZATION: Don't cut off speech too quickly
+recognizer.pause_threshold = 1.5  # Wait 1.5s of silence before processing (Default is 0.8s)
+recognizer.energy_threshold = 300 # Sensitivity (Lower = more sensitive, Higher = ignores background noise)
+
 print(f"\n[*] LISTENING on Device {MIC_INDEX}... (Start recording) ")
 print("---------------------------------------")
 
@@ -101,7 +105,7 @@ try:
             print("\n[.] Listening...")
             try:
                 # Listen for audio (timeout after 5s if silence)
-                audio = recognizer.listen(source, timeout=5, phrase_time_limit=10)
+                audio = recognizer.listen(source, timeout=None, phrase_time_limit=15)
                 
                 # Convert Speech to Text
                 text = recognizer.recognize_google(audio)
