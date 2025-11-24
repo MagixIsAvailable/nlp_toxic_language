@@ -15,6 +15,10 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 * **Specific Implementation:**
     * **Real-Time Filter (`live_inference.py`):** Co-developed with AI assistance to handle low-level audio drivers and threading.
     * **AI Data Audit (`auto_audit.py`):** The **"Teacher-Student" audit architecture was conceptually designed by me** to solve the data validation bottleneck. Generative AI was utilized to **generate the Python API wrappers** for the Google Gemini SDK. The logic for the audit loop, error flagging, and the integration into the project workflow remains my own work.
+    * **Data Cleaning (Excel Copilot):** Used GPT-5 enabled semantic analysis to automatically correct label errors in the inference logs based on a logical prompt.
+    * **Synthetic Data Generation (Gemini):** Used to generate the **adversarial test phrases** (`test_phrases.txt`) and the **"TheDataFlyWheelTrainingScript.txt** (60 sentences). The AI was prompted to create specific "context trap" sentences (e.g., "I hate broccoli") to stress-test the model's decision boundaries
+
+
 * **Modification:** All AI-generated suggestions were reviewed, tested, and adapted to fit the specific dataset and project requirements. The final implementation and critical analysis are my own work.
 
 ##  Dataset
