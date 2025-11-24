@@ -119,9 +119,8 @@ Open the Jupyter Notebook to view the training, evaluation, and visualization co
 jupyter notebook Toxic_Language_Evaluation.ipynb
 ```
 
-### 4\.  Run Live Inference
-
-To start the real-time safety filter (ensure you have a microphone connected if not sure of mic device port run check_mic.py):
+### 4. 🎤 Run Live Inference
+To initiate the real-time safety filter, ensure your microphone is connected. If you are unsure of your correct input device index, run `python check_mic.py` to list them.
 
 ```bash
 python live_inference.py
