@@ -9,11 +9,15 @@ torch --index-url https://download.pytorch.org/whl/cu121
 torchvision --index-url https://download.pytorch.org/whl/cu121
 torchaudio --index-url https://download.pytorch.org/whl/cu121
 
+
 # --- NLP & Transformers ---
 transformers # Hugging Face Transformers library
 datasets # Hugging Face
 accelerate # For optimized model training
 huggingface_hub # For model and dataset sharing
+
+# --- Generative AI & Gemini ---
+google-generativeai # Google Gemini API client
 
 # --- Live Inference & Audio ---
 SpeechRecognition # For speech-to-text conversion
@@ -23,6 +27,8 @@ pyaudio  # For audio input/output
 # --- Jupyter Notebook Utilities ---
 jupyter  # For running Jupyter notebooks
 ipywidgets  # For interactive widgets in notebooks
+
+
 
 # --- External Software (Optional) ---
 # TouchDesigner is required for the real-time visualization.
