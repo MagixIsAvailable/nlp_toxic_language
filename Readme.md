@@ -230,6 +230,6 @@ To perform the "Teacher-Student" validation loop (auditing the local model's pre
 python auto_audit.py
 ```
 **Option B: Microsoft Excel Copilot (No-Code)**
-​Open Data/live_recording_data.csv in Excel.
+​*Open Data/live_recording_data.csv in Excel.
 ​Use Copilot to review the logs (e.g., "Identify rows where the model labeled 'safe' context as toxic").
 ​Save the corrected dataset as Data/audited_data.csv for future fine-tuning.
