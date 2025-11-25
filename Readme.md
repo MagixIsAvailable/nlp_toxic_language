@@ -56,6 +56,7 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 To validate the model's performance in a production environment, I developed a **Real-Time Audio Visualizer** that maps semantic toxicity to visual chaos.
 
 ![TouchDesigner Particles](Images/TD_particels.png)
+figure1: image from the TouchDeisgner 
 
 ### 🎥 Live Demo
 [**▶️ Watch the Real-Time Safety Filter in Action**](https://youtu.be/QQauk5tuYt4)
@@ -230,6 +231,9 @@ To perform the "Teacher-Student" validation loop (auditing the local model's pre
 python auto_audit.py
 ```
 **Option B: Microsoft Excel Copilot (No-Code)**
-​*Open Data/live_recording_data.csv in Excel.
-​Use Copilot to review the logs (e.g., "Identify rows where the model labeled 'safe' context as toxic").
-​Save the corrected dataset as Data/audited_data.csv for future fine-tuning.
+
+​    1.    Open Data/live_recording_data.csv in Excel 365 with copilot integration .
+
+​    2.    Use Copilot to review the logs (e.g., "Identify rows where the model labeled 'safe' context as toxic").
+
+ ​   3.    Save the corrected dataset as Data/audited_data.csv for future fine-tuning.
