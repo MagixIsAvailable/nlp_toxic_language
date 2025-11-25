@@ -175,7 +175,7 @@ Figure 3: Confidence Distribution Analysis: Despite the edge cases, the model de
 
 **Time-Series Analysis**
 ![Time-Series Analysis](Images/Time-Series%20Analysis.png)
-Figure 4: Session Timeline Analysis: The time-series visualization reconstructs the testing session. The distinct clusters of high spikes (red lines) correspond to the "Adversarial Testing" phases where toxic phrases were read consecutively, proving the system's responsiveness is consistent over time.
+Figure 4: Session Timeline Analysis: The time-series visualization reconstructs the testing session. The distinct clusters of high spikes (blue lines) correspond to the "Adversarial Testing" phases where toxic phrases were read consecutively, proving the system's responsiveness is consistent over time.
 
 **Word Frequency Analysis**
 ![Word Frequency Analysis](Images/word_frequency_analysis.png)
