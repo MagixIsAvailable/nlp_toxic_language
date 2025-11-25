@@ -13,7 +13,7 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 3.  **Learn** from deployment via a "Data Flywheel," which logs and audits inference data to continuously refine the model against real-world edge cases.
 
 ## ⚠️ Generative AI Declaration
-* **Tools Used:** Gemini / GitHub Copilot
+* **Tools Used:** Google Gemini / Microsoft GitHub Copilot
 * **Purpose:** Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
 * **Specific Implementation:**
     * **Real-Time Filter (`live_inference.py`):** Co-developed with AI assistance to handle low-level audio drivers and threading.
