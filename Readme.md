@@ -13,7 +13,7 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 3.  **Learn** from deployment via a "Data Flywheel," which logs and audits inference data to continuously refine the model against real-world edge cases.
 
 ## ⚠️ Generative AI Declaration
-* **Tools Used:** Gemini / GitHub Copilot
+* **Tools Used:** Google Gemini / Microsoft GitHub Copilot
 * **Purpose:** Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
 * **Specific Implementation:**
     * **Real-Time Filter (`live_inference.py`):** Co-developed with AI assistance to handle low-level audio drivers and threading.
@@ -56,6 +56,7 @@ The evaluation demonstrates that while statistical methods achieve high accuracy
 To validate the model's performance in a production environment, I developed a **Real-Time Audio Visualizer** that maps semantic toxicity to visual chaos.
 
 ![TouchDesigner Particles](Images/TD_particels.png)
+figure1: image from the TouchDeisgner 
 
 ### 🎥 Live Demo
 [**▶️ Watch the Real-Time Safety Filter in Action**](https://youtu.be/QQauk5tuYt4)
@@ -175,7 +176,7 @@ Figure 3: Confidence Distribution Analysis: Despite the edge cases, the model de
 
 **Time-Series Analysis**
 ![Time-Series Analysis](Images/Time-Series%20Analysis.png)
-Figure 4: Session Timeline Analysis: The time-series visualization reconstructs the testing session. The distinct clusters of high spikes (red lines) correspond to the "Adversarial Testing" phases where toxic phrases were read consecutively, proving the system's responsiveness is consistent over time.
+Figure 4: Session Timeline Analysis: The time-series visualization reconstructs the testing session. The distinct clusters of high spikes (blue lines) correspond to the "Adversarial Testing" phases where toxic phrases were read consecutively, proving the system's responsiveness is consistent over time.
 
 **Word Frequency Analysis**
 ![Word Frequency Analysis](Images/word_frequency_analysis.png)
@@ -228,3 +229,11 @@ To perform the "Teacher-Student" validation loop (auditing the local model's pre
 *Requires a Google Cloud API Key.*
 ```bash
 python auto_audit.py
+```
+**Option B: Microsoft Excel Copilot (No-Code)**
+
+​    1.    Open Data/live_recording_data.csv in Excel 365 with copilot integration .
+
+​    2.    Use Copilot to review the logs (e.g., "Identify rows where the model labeled 'safe' context as toxic").
+
+ ​   3.    Save the corrected dataset as Data/audited_data.csv for future fine-tuning.
