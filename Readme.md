@@ -15,6 +15,8 @@ Beyond theoretical evaluation, this project implements the optimized model into 
 ## ⚠️ Generative AI Declaration
 * **Tools Used:** Google Gemini / Microsoft GitHub Copilot
 * **Purpose:** Used for debugging code errors, generating boilerplate code for plotting charts, and refining the technical explanations in the report.
+**Website:** Google Gemini : https://gemini.google.com/app 
+            Microsoft GitHub Copilot for Excel and VS studio code  :https://copilot.microsoft.com/
 * **Specific Implementation:**
     * **Real-Time Filter (`live_inference.py`):** Co-developed with AI assistance to handle low-level audio drivers and threading.
     * **AI Data Audit (`auto_audit.py`):** The **"Teacher-Student" audit architecture was conceptually designed by me** to solve the data validation bottleneck. Generative AI was utilized to **generate the Python API wrappers** for the Google Gemini SDK. The logic for the audit loop, error flagging, and the integration into the project workflow remains my own work.

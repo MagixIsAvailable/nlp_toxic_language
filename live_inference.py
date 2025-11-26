@@ -2,7 +2,7 @@
 # Live Inference & Visualization Bridge
 #
 # Note: This script was developed with assistance from Generative AI (Gemini)
-# to handle microphone input streams and OSC networking protocols.
+# to handle microphone input streams and OSC networking protocols
 # -----------------------------------------------------------------------------
 
 import os # For file path operations
@@ -39,6 +39,7 @@ def log_to_csv(text, score):
 sys.stdout.reconfigure(encoding='utf-8')
 
 # --- CONFIGURATION ---
+# Generative AI was used to support the development of audio stream handling and OSC networking.
 OSC_IP = "127.0.0.1"
 OSC_PORT = 7000
 MIC_INDEX = 3   # <---  specific microphone index (Live! Cam) , check check_mic.py for your device index
@@ -51,6 +52,7 @@ LOG_FILE = os.path.join(DATA_FOLDER, "live_recording_data.csv")
 os.makedirs(DATA_FOLDER, exist_ok=True)
 
 # Path to your trained DistilBERT model
+# Generative AI was used to assist with model loading and checkpoint management.
 MODEL_DIR = "./results" 
 ARCHITECTURE = "distilbert-base-uncased"
 
@@ -79,6 +81,7 @@ print(f"[*] Loading {ARCHITECTURE} from disk...")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Load DistilBERT (Not RoBERTa)
+# Generative AI was used to assist with model loading and tokenizer setup.
 tokenizer = DistilBertTokenizer.from_pretrained(ARCHITECTURE)
 model = DistilBertForSequenceClassification.from_pretrained(model_path).to(device)
 model.eval()
