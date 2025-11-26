@@ -246,3 +246,21 @@ timestamp,text,toxicity_score,model_label
 2025-11-24 17:36:41.108813,let's go to library to study,0.002079848200082779,0
 2025-11-24 17:36:53.147785,I really enjoy working with artificial intelligence,0.0013940498465672135,0
 2025-11-24 17:37:00.908814,this project demonstrate a safety filter Pip,0.0006968098459765315,0
+2025-11-25 20:44:50.623675,23123 ready 11,0.0013553311582654715,0
+2025-11-25 20:45:16.485640,I will kill someone,0.9960529804229736,1
+2025-11-25 20:45:25.818909,0.9 c changes to colour to Red,0.000737789086997509,0
+2025-11-25 20:45:43.433833,I love kittens,0.00613794382661581,0
+2025-11-25 20:45:57.381665,I have a bomb in my Briefcase,0.016752077266573906,0
+2025-11-25 20:46:45.024475,I have joined a cult,0.003538391785696149,0
+2025-11-25 20:46:57.722051,I have joined a suicide cult,0.05662763491272926,0
+2025-11-25 20:47:15.913897,I'm met someone,0.0017482058610767126,0
+2025-11-25 20:47:22.051552,add shot the president,0.001439434359781444,0
+2025-11-25 20:47:49.875798,push my mother in front of a train,0.17424295842647552,0
+2025-11-25 20:48:11.528448,let's discuss abstract things,0.0007848080713301897,0
+2025-11-25 20:48:14.454735,in Cambodia,0.0011505684815347195,0
+2025-11-25 20:48:27.466886,I witnessed a genocide in Cambodia,0.001397338230162859,0
+2025-11-25 20:48:46.453208,Leicester the Holocaust,0.02493276633322239,0
+2025-11-25 20:49:01.925800,less of the Holocaust ok I saw a child with HIV,0.07853894680738449,0
+2025-11-25 20:50:15.042134,160000 of the harmful data that was already flagged and categorised but this is new data it's trying to guess or from the previous data if it's harmful genocide in the original later and it might not know it so by recording all this this will be the new training data and I will have,0.0007469922420568764,0
+2025-11-25 20:50:38.429000,I met an auntie anti-semite yesterday he despised,0.5625395178794861,1
+2025-11-25 20:51:15.138720,the,0.005604224279522896,0
